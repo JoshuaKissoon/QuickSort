@@ -59,7 +59,6 @@ public class IntegerArrayTest
         {
             new IntegerArrayTest();
             System.out.println();
-            System.out.println();
         }
     }
 }
