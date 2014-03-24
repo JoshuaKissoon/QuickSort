@@ -13,9 +13,17 @@ Using the Algos
 
 **Create an Instance passing in your data to be sorted**
 
+Initialize the Algorithms passing in the type of object you need to sort
+
 ```Java
+QuickSort<Type> sort1 = new QuickSort<>(items);   // For Basic Quicksort
+Dijkstra3WayQuickSort<Type> sort2 = new Dijkstra3WayQuickSort<>(items);  // For Dijkstra's method
+
+/* eg: For Integer sorting */
 QuickSort<Integer> sort1 = new QuickSort<>(items);   // For Basic Quicksort
 Dijkstra3WayQuickSort<Integer> sort2 = new Dijkstra3WayQuickSort<>(items);  // For Dijkstra's method
+
+/
 ```
 Note that your input must be comparable, meaning that it must implement Java's Comparable interface.
 
