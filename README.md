@@ -22,7 +22,6 @@ Dijkstra3WayQuickSort<Type> sort2 = new Dijkstra3WayQuickSort<>(items);  // For 
 /* eg: For Integer sorting */
 QuickSort<Integer> sort1 = new QuickSort<>(items);   // For Basic Quicksort
 Dijkstra3WayQuickSort<Integer> sort2 = new Dijkstra3WayQuickSort<>(items);  // For Dijkstra's method
-
 ```
 Note that your input must be comparable, meaning that it must implement Java's Comparable interface.
 
@@ -45,7 +44,6 @@ https://github.com/JoshuaKissoon/QuickSort/blob/master/src/quicksort/tests/Integ
 Sorting a randomly popluated Integer array of 10 million items. Test ran 10 times. Here we see that for some inputs (the ones with more repeated values), Dijkstra's method is faster than the basic QuickSort.
 
 ```Java
-
 Starting Algorithms
 QuickSort time taken:                        8246999516
 Dijkstra3WayQuickSort time taken:            10243131671
@@ -85,7 +83,6 @@ Dijkstra3WayQuickSort time taken:            8890047962
 Starting Algorithms
 QuickSort time taken:                        7246685555
 Dijkstra3WayQuickSort time taken:            8624706623
-
 ```
 
 **Test 2**
@@ -95,7 +92,6 @@ https://github.com/JoshuaKissoon/QuickSort/blob/master/src/quicksort/tests/Strin
 Sorting a randomly popluated String array of 10 million items. Test ran 10 times. Again, we see that for some inputs (the ones with more repeated values), Dijkstra's method is faster than the basic QuickSort.
 
 ```Java
-
 Starting Algorithms
 QuickSort time taken:                        8669208531
 Dijkstra3WayQuickSort time taken:            10049634932
@@ -135,5 +131,4 @@ Dijkstra3WayQuickSort time taken:            9052427002
 Starting Algorithms
 QuickSort time taken:                        6979959609
 Dijkstra3WayQuickSort time taken:            9151569507
-
 ```
